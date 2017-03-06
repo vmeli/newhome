@@ -1,0 +1,161 @@
+*{
+	 box-sizing: border-box;
+}
+img {
+	width: 100%;
+}
+.format__social {
+	text-align: center;
+}
+.format__social > li {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.format__social i {
+	background: #ccc;
+    color: white;
+    border-radius: 50px;
+}
+.c-fff {
+	color: white;
+}
+.pt {
+	padding-top: 2rem; 
+}
+.box {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 2rem;
+}
+.box {
+	position: absolute;
+    bottom: 0;
+    border: 1px solid red;
+    max-width: 34%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    color: white;
+}
+.header-main {
+	background: #E00109;
+	text-align: center;
+	padding: 2rem 0;
+}
+.inline-b {
+	display: inline-block;
+}
+.p-relative{
+	position: relative;
+}
+.style-none {
+    list-style: none;
+    padding: 0;
+}
+ul.header__register>li,
+ul.header__social>li {
+    display: inline-block;
+    margin: 0 0.1rem;
+}
+.header__social .fa.fa-stack{
+	text-align: center;
+    background: white;
+    color: #E00109;
+    border-radius: 50px;
+}
+ul.header__social .fa.fa-stack:hover  {
+/*	color: white;
+    background: #E00109;*/
+	opacity: 0.5;
+}
+.header__logo{
+    background-image: url(//cdn8.larepublica.pe/sites/all/themes/larepublica_zen/images/glr/design/sprite.png);
+    background-position: -283px 0;
+    width: 280px;
+    height: 34px;
+    display: block;
+    text-indent: -9999px;
+    position: absolute;
+    top: 0;
+    left: 1.5rem;
+}
+ul.header__register>li {
+	margin-right: 1rem;
+}
+
+.bg-show {
+	padding: 0.5rem;
+    border-radius: 50px;
+    background: #9d9d9d;
+}
+.h {
+	display: none;
+}
+.show {
+	display: inline-block!important;
+}
+
+.header__register li a {
+	color: white;
+	text-decoration: none;
+}
+.header__search--input input {
+	border-radius: 50px;
+	border: 2px solid white;
+	padding: 0.3rem;
+	background: #E00109;
+	padding-left: 1rem;
+	width: 84px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+	color: white;
+}
+
+
+.header__search--input input:focus {
+    outline: none;
+}
+.header__search--input input::-webkit-input-placeholder { color: white; } /* WebKit */
+.header__search--input input:-moz-placeholder { color: white; } /* Firefox 18- */
+.header__search--input input::-moz-placeholder { color: white; } /* Firefox 19+ */
+.header__search--input input:-ms-input-placeholder { color: white; } /* IE 10+ */
+
+input[type=search]:focus {
+	width: 150px;
+}
+
+.wrapper-register-search {
+	position: absolute;
+	right: 1.5rem;
+	top: 0;
+}
+.fa.fa-search {
+	color: white;
+	position: absolute;
+	right: 0;
+}
+li.social__share {
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+
+#nav li a.active {
+    background: red;
+    color: white
+ 
+}
+a:hover {
+	text-decoration: none;
+}
+#nav {
+	font-size: 0;
+}
+#nav li a {
+	color: black;
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+    background: #ccc;
+    font-size: 1rem;
+}
