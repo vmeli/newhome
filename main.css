@@ -1,5 +1,40 @@
 *{
-	 box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	         box-sizing: border-box;
+}
+.mb-1 {
+	margin-bottom: 1rem;
+}
+.ov-h {
+	height: 300px;
+	overflow: hidden;
+}
+.share-button-more {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: rgba(0, 0, 0, 0.58);
+	position: relative;
+	top: 100%;
+}
+.top-div{
+    bottom: 100%;
+    top: inherit;
+}
+figure {
+	height: 300px;
 }
 img {
 	width: 100%;
@@ -14,7 +49,8 @@ img {
 .format__social i {
 	background: #ccc;
     color: white;
-    border-radius: 50px;
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
 }
 .c-fff {
 	color: white;
@@ -23,9 +59,17 @@ img {
 	padding-top: 2rem; 
 }
 .box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 0 2rem;
 }
 .box {
@@ -61,7 +105,8 @@ ul.header__social>li {
 	text-align: center;
     background: white;
     color: #E00109;
-    border-radius: 50px;
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
 }
 ul.header__social .fa.fa-stack:hover  {
 /*	color: white;
@@ -85,7 +130,8 @@ ul.header__register>li {
 
 .bg-show {
 	padding: 0.5rem;
-    border-radius: 50px;
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
     background: #9d9d9d;
 }
 .h {
@@ -100,14 +146,14 @@ ul.header__register>li {
 	text-decoration: none;
 }
 .header__search--input input {
-	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	        border-radius: 50px;
 	border: 2px solid white;
 	padding: 0.3rem;
 	background: #E00109;
 	padding-left: 1rem;
 	width: 84px;
 	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
 	transition: all .5s;
 	color: white;
 }
@@ -137,7 +183,6 @@ input[type=search]:focus {
 }
 li.social__share {
 	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
 	transition: all .5s;
 }
 

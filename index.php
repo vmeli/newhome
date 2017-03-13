@@ -57,6 +57,49 @@
     <div class="row">
       <div class="col-md-8">
         <div class="row">
+          <div class="col-md-12 mb-1">
+            <div class="mol-card-format-1 pt-relative ov-h">
+                <figure class="format-1__figure">
+                  <img src="http://placehold.it/620x300" alt="">
+                </figure>
+                <div class="box">
+                  <span><a href="" class="c-fff">ODEBRECHT</a></span>
+                  <h2>
+                    <a href="" class="c-fff">Fiscalía hace todo para capturar a Toledo</a>
+                  </h2>
+                  <p>Pablo Sánchez manifestó que Interpol está tras los pasos del ex presidente</p>    
+                  <ul class="format__social style-none">
+                    <li class="social__fb inline-b">
+                      <a href="">
+                        <i class="fa fa-facebook fa-stack" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="social__tw inline-b">
+                      <a href="">
+                        <i class="fa fa-twitter fa-stack" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="social__share inline-b" id="share-btn">
+                      <i class="fa fa-share-alt fa-stack" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+ <!--                  <div class="share-button-more">
+                    <a href=""><i class="fa fa-google-plus fa-stack" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin fa-stack" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram fa-stack" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-pinterest-p fa-stack" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-envelope-o fa-stack" aria-hidden="true"></i></a>
+                  </div> -->
+                </div>
+                <div class="share-button-more">
+                  <a href=""><i class="fa fa-google-plus fa-stack" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-linkedin fa-stack" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-instagram fa-stack" aria-hidden="true"></i></a>
+                  <i class="fa fa-pinterest-p fa-stack" aria-hidden="true"></i>
+                  <a href=""><i class="fa fa-envelope-o fa-stack" aria-hidden="true"></i></a>
+                </div>
+            </div>
+          </div>
           <div class="col-md-12">
             <div class="mol-card-format-1 pt-relative">
                 <figure class="format-1__figure">
@@ -68,37 +111,39 @@
                     <a href="" class="c-fff">Fiscalía hace todo para capturar a Toledo</a>
                   </h2>
                   <p>Pablo Sánchez manifestó que Interpol está tras los pasos del ex presidente</p>    
-
-
-        <ul class="format__social style-none">
-          <li class="social__fb inline-b">
-            <a href="">
-              <i class="fa fa-facebook fa-stack" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="social__tw inline-b">
-            <a href="">
-              <i class="fa fa-twitter fa-stack" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="social__share inline-b" id="share-btn">
-            <!-- <a href=""> -->
-              <i class="fa fa-share-alt fa-stack" aria-hidden="true"></i>
-            <!-- </a> -->
-            <div class="wrap-more-search inline-b h">
-              <a href="">
-                <i class="fa fa-facebook fa-stack" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-facebook fa-stack" aria-hidden="true"></i>
-              </a>            
-            </div>
-          </li>
-        </ul>
-
-
-
+                  <ul class="format__social style-none">
+                    <li class="social__fb inline-b">
+                      <a href="">
+                        <i class="fa fa-facebook fa-stack" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="social__tw inline-b">
+                      <a href="">
+                        <i class="fa fa-twitter fa-stack" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="social__share inline-b" id="share-btn">
+                      <!-- <a href=""> -->
+                        <i class="fa fa-share-alt fa-stack" aria-hidden="true"></i>
+                      <!-- </a> -->
+<!--                       <div class="wrap-more-search inline-b h">
+                        <a href="">
+                          <i class="fa fa-facebook fa-stack" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                          <i class="fa fa-facebook fa-stack" aria-hidden="true"></i>
+                        </a>            
+                      </div> -->
+                    </li>
+                  </ul>
                 </div>
+                            <div class="share-button-more">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i class="fa fa-google-plus" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+
+            </div>
             </div>
           </div>
         </div>
