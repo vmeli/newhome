@@ -1,14 +1,10 @@
 $(document).ready(function(){
-    // $("#share-btn").click(function(){
-    // 	    $(this).toggleClass("bg-show");
-    // 	    // event.preventDefault();
-    //     	$(".wrap-more-search").toggleClass("show");
-    // });
-
-    $("#share-btn").click(function(){
-        console.log("entre");
-         $(".share-button-more").toggleClass("top-div");
-    });
+    $("li.social__share .fa-share-alt").click(function(){
+         $(this).closest( 'div.box' ).next('div.more-btn-share').addClass('modal-share-more');
+	});
+	$(".more-btn-share i.fa-times-circle-o").click(function(){
+         $('.more-btn-share').removeClass('modal-share-more');
+	});
 
 
 
