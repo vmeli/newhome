@@ -3,7 +3,7 @@ $(document).ready(function(){
          $(this).closest( 'div.box' ).next('div.more-btn-share').addClass('modal-share-more');
 	});
 	$(".more-btn-share i.fa-times-circle-o").click(function(){
-         $('.more-btn-share').removeClass('modal-share-more');
+         $(this).parent().removeClass('modal-share-more');
 	});
 
 
